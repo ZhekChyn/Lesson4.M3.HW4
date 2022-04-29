@@ -1,33 +1,52 @@
 package com.geektech.lesson4m3hw4;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.geektech.lesson4m3hw4.databinding.ItemCountryBinding;
+import com.bumptech.glide.Glide;
+import com.geektech.lesson4m3hw4.Models.Continent;
+import com.geektech.lesson4m3hw4.databinding.ItemContinentBinding;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class ContinentAdapter extends RecyclerView.Adapter<ContinentAdapter.CountryViewHolder>{
+public class ContinentAdapter extends RecyclerView.Adapter<ContinentAdapter.ContinentViewHolder>{
 
-    private ArrayList<Continent> continents;
+    private List<Continent> continents;
+    private OnItemClick itemClick;
 
-    public ContinentAdapter(ArrayList<Continent> continents) {
+    public ContinentAdapter(List<Continent> continents, OnItemClick onItemClick) {
         this.continents = continents;
+        itemClick = onItemClick;
     }
 
-
-    @NonNull
-    @Override
-    public CountryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new CountryViewHolder(ItemCountryBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
+    public ContinentAdapter(List<Continent> list) {
+        this.continents = list;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CountryViewHolder holder, int position) {
+    public ContinentViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        ItemContinentBinding binding = ItemContinentBinding.inflate(LayoutInflater.from(parent.getContext()),
+                parent, false);
+        return new ContinentViewHolder(binding);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ContinentViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.bind(continents.get(position));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                itemClick.OnItemClick(continents.get(position));
+            }
+        });
     }
 
     @Override
@@ -35,16 +54,19 @@ public class ContinentAdapter extends RecyclerView.Adapter<ContinentAdapter.Coun
         return continents.size();
     }
 
-    static class CountryViewHolder extends RecyclerView.ViewHolder {
-        private ItemCountryBinding binding;
+    static class ContinentViewHolder extends RecyclerView.ViewHolder {
 
-        public CountryViewHolder(ItemCountryBinding binding) {
+        private ItemContinentBinding binding;
+
+        public ContinentViewHolder(ItemContinentBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
 
         public void bind(Continent continent) {
-            binding.tvContinent.setText((CharSequence) continent);
+            binding.nameContinent.setText(continent.getNameOfContinent());
+            Glide.with(binding.getRoot()).load(continent.getFlagOfContinent()).into(binding.ivFlag);
         }
+
     }
 }

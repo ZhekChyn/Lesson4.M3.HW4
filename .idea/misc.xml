@@ -3,8 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_africa.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_algeria.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_ar_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_asia.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_au_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_australia.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_fj_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_fr_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_gb_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_it_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_kazakstan.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_kg.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_mx_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_nigeria.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_nz_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_pg_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_ru_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_south_africa.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_south_america.xml" value="0.121" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_tm_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_tr_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_tt_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_us_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_ve_3x.xml" value="0.229" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/drawable-v24/ic_vu_3x.xml" value="0.229" />
         <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/layout/item_continent.xml" value="0.25" />
         <entry key="..\:/Users/60163/Desktop/Gtech/third month/Lesson4M3HW4/app/src/main/res/layout/item_country.xml" value="0.25" />
       </map>
     </option>

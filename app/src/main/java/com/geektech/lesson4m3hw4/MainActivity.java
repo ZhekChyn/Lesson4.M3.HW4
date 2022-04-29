@@ -8,6 +8,7 @@ import com.geektech.lesson4m3hw4.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
+    public static Boolean isSecondFragment = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,5 +18,16 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null){
             getSupportFragmentManager().beginTransaction().add(R.id.container, new MainFragment()).commit();
         }
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (isSecondFragment){
+            super.onBackPressed();
+        }else{
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, new MainFragment()).commit();
+        }
+
     }
 }

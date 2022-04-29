@@ -1,10 +1,10 @@
-package com.geektech.lesson4m3hw4;
+package com.geektech.lesson4m3hw4.Models;
 
 public class Continent {
     private String nameOfContinent;
-    private String flagOfContinent;
+    private int flagOfContinent;
 
-    public Continent(String nameOfContinent, String flagOfContinent) {
+    public Continent(String nameOfContinent, int flagOfContinent) {
         this.nameOfContinent = nameOfContinent;
         this.flagOfContinent = flagOfContinent;
     }
@@ -17,11 +17,11 @@ public class Continent {
         this.nameOfContinent = nameOfContinent;
     }
 
-    public String getFlagOfContinent() {
+    public int getFlagOfContinent() {
         return flagOfContinent;
     }
 
-    public void setFlagOfContinent(String flagOfContinent) {
+    public void setFlagOfContinent(int flagOfContinent) {
         this.flagOfContinent = flagOfContinent;
     }
 }
